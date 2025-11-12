@@ -147,7 +147,7 @@ with st.expander('📊 View Detailed Statistics'):
   })
 st.table(stats_df)
 # Raw Data
-  with st.expander('📈 View Raw Data'):
+with st.expander('📈 View Raw Data'):
   st.dataframe(data, use_container_width=True)
 # Footer
   st.markdown("---")
