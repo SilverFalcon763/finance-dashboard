@@ -126,14 +126,11 @@ if len(clean_returns) > 0:
 # Risk assessment
 st.write("---")
 if volatility > 4:
-  st.warning("⚠️ **High Volatility**: This stock has significant price swings. Higher risk,
-  higher potential reward.")
+  st.warning("⚠️ **High Volatility**: This stock has significant price swings. Higher risk,higher potential reward.")
 elif volatility > 2:
-  st.info("📊 **Moderate Volatility**: This stock has average price fluctuations. Balanced
-  risk-reward.")
+  st.info("📊 **Moderate Volatility**: This stock has average price fluctuations. Balancedrisk-reward.")
 else:
-  st.success("✅ **Low Volatility**: This stock has stable price movements. Lower risk, lower
-  potential reward.")
+  st.success("✅ **Low Volatility**: This stock has stable price movements. Lower risk, lowerpotential reward.")
 # Statistics Summary
 with st.expander('📊 View Detailed Statistics'):
   st.write("**Price Statistics:**")
