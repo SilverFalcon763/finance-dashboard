@@ -151,5 +151,4 @@ with st.expander('📈 View Raw Data'):
   st.dataframe(data, use_container_width=True)
 # Footer
   st.markdown("---")
-  st.caption(f"Data provided by Yahoo Finance via yfinance library • Last updated:
-  {data.index[-1].strftime('%Y-%m-%d %H:%M')}")
+  st.caption(f"Data provided by Yahoo Finance via yfinance library • Last updated:{data.index[-1].strftime('%Y-%m-%d %H:%M')}")
